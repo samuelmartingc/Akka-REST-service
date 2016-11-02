@@ -1,8 +1,4 @@
-To run a simple postgres database with default values you can use docker
-```bash
-docker run --name some-postgres-1 -e POSTGRES_PASSWORD=test -e POSTGRES_USER=postgres -e POSTGRES_DB=akka-http-rest -p 5432:5432 -d postgres
-```
-You can also see the default API here  http://docs.akkahttprest.apiary.io/#
+No db is needed in this branch
 
 
 POC based on 'Akka Slick REST service template'
