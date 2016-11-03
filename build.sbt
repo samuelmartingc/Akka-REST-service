@@ -24,6 +24,7 @@ libraryDependencies ++= {
     "com.typesafe.akka"  %% "akka-http-testkit-experimental"       % akkaStreamV      % "it,test"
   )
 }
+libraryDependencies +=  "org.scalaj" %% "scalaj-http" % "2.3.0"
 
 lazy val root = project.in(file(".")).configs(IntegrationTest)
 Defaults.itSettings
